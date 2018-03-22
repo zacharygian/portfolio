@@ -1,0 +1,157 @@
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Roboto');
+
+.navbar {
+  padding-top: 10px;
+  background-color: #7FDBFF;
+  margin: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  color: black;
+  text-align: center;
+}
+
+.nav.navbar-nav li a {
+  color: white;
+  font-size: 15px;
+}
+
+ul.nav a:hover {
+  color: white !important;
+  border-bottom: 0.1px solid white;
+  background-color: #7FDBFF;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  background-color: #7FDBFF;
+}
+
+.header h1 {
+  padding-top: 70px;
+  /*text-transform: uppercase;
+  /*letter-spacing: .2em;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.header h3,h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clickable {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 70px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-image:url("https://image.flaticon.com/icons/svg/25/25623.svg");
+  background-position: center;
+  background-size: 60px;
+
+}
+
+.animated {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+
+.aboutMe {
+  background-color: #39CCCC;
+  text-align: center;
+  color: white;
+  height: 500px;
+  padding: 20px;
+}
+
+.aboutMe p {
+  padding: 10px;
+}
+
+.languages {
+  height: 500px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  background: white;
+  text-align: center;
+  font-size: 100px;
+  background-color: #DDDDDD;
+}
+
+.languages h1 {
+  padding-bottom: 35px;
+}
+
+.languages p {
+  font-size: 15px;
+}
+
+.contact {
+  height: auto;
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact h1 {
+  color: yellow;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+
+.form-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+#submit {
+  width: 200px;
+  margin: auto;
+  border-radius: 1px;
+  border: 1px solid yellow;
+  opacity: 0.9;
+}
+
+#submit:hover {
+  opacity: 1;
+}
+
+.form-container input {
+  border-radius: 1px;
+  border: 1px solid white;
+}
+
+.form-container input:focus {
+  border: 2px solid black;
+}
+
+#text {
+  border-radius: 1px;
+  border: 1px solid white;
+}
+
