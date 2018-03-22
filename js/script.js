@@ -7,3 +7,7 @@ $('a[href^="#"]').click(function () {
 
     return false;
 });
+
+var typed = new Typed('.element', {
+    stringsElement: '#typed-strings'
+  });

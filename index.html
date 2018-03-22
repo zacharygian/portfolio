@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Zachary Gian | Full Stack Web Developer & Website Designer</title>
-  <link rel="icon" type="image/png" src="assets/images/logo.png">
+  <link rel="icon" type="image/png" href="assets/images/logo3.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -19,18 +19,20 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="#aboutMe">ABOUT ME</a></li>
-        <li><a href="#languages">LANGUAGES</a></li>
+        <li><a href="#languages">SKILLS</a></li>
         <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#contact">CONTACT ME</a></li>
       </ul>
     </div>
   </div>
 </nav>
-  <h1>Hi, I'm Zach.</h1>
-  <h3>I'm a Full Stack Web Developer & Website Designer.</h3>
-  <br>
-  <h4> I turn creative ideas into beautiful websites, landing pages, and web applications.</h4>
-  <a href="#" class="btn btn-primary">Let's work together</a>
+<div class="content">
+  <div class="description">
+    <h1>Hi, I'm Zach.</h1>
+    <h3>I'm a Full Stack Web Developer & Website Designer.</h3>
+    <h4> I turn creative ideas into beautiful websites, landing pages, and web applications.</h4>
+  </div>
+</div>
   <a href="#aboutMe">
        <div class="clickable animated bounce"></div>
   </a>
@@ -43,7 +45,24 @@
 
 <div class="container-fluid languages" id="languages">
   <h1>My expertise</h1>
-  <div class="row">
+  <div class="skill">
+    <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <i class="fas fa-desktop"></i>
+      <h3>Responsive & Clean Web Design</h3>
+      <p>I design and build beautiful websites, portfolio, personal pages and landing pages that work on desktop, tablets and mobile devices. I love simple and minimalistic designs that speak to the audience and spark enthusiasm.</p>
+    </div>
+    <div class="col-xs-12 col-sm-4 skill">
+      <i class="fas fa-code"></i>
+      <h3>Back End Development</h3>
+      <p>I code full web applications using Ruby on Rails, JavaScript, HTML, CSS and other frameworks. I can integrate databases and user logins/profiles to make your platform fully complete and the user experience flawless.</p>
+    </div>
+    <div class="col-xs-12 col-sm-4 skill">
+      <i class="fas fa-globe"></i>
+      <h3>Deployment + Maintenance</h3>
+      <p>I obtain a domain name for your project, deploy it on a server and provide free maintenance for two weeks after the project is over. I make sure that the website runs smoothly and that you are happy with it, because in the end that is all that matters.</p>
+    </div>
+  </div>
   </div>
 </div>
 
@@ -51,16 +70,16 @@
   <h1>My Work</h1>
   <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-3">
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-      <div class="card-category">Popular</div>
-      <div class="card-description">
-      <h2>Travel.Meet.Play</h2>
-      <p>Very cool city, the best</p>
-      </div>
-
-      <a class="card-link" href="#" ></a>
-      </div>
+    <div class="col-xs-12 col-sm-4">
+      <a class="card-link" href="https://www.travelmeetplay.com/">
+        <div class="card" style="background-image: url("../assets/images/logo.png");">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2>Travel.Meet.Play</h2>
+            <p>Very cool city, the best</p>
+          </div>
+        </div>
+      </a>
     </div>
 
     <div class="col-xs-12 col-sm-4">
@@ -70,8 +89,6 @@
       <h2>Pawlidays</h2>
       <p>Very cool city, the best</p>
       </div>
-
-      <a class="card-link" href="#" ></a>
       </div>
     </div>
 
@@ -128,7 +145,7 @@
   <div id="contact">
     <h1>Want to work together?</h1><br>
     <div class="container">
-      <p> Once you have filled out the form and given me information about your project, I will reach out to you within 24 hours to schedule a time to talk. I can then start working on your project as fast as possible!</p><br>
+      <p style="color:white"> I am currently accepting new projects and would love to hear about yours. Once you have filled out the form and given me information about your project, I will reach out to you within 24 hours to schedule a time to talk. I can then start working on your project as fast as possible!</p><br>
     </div>
     <div class="form-container">
       <form method="POST" action="https://formspree.io/zgian16@gmail.com" class="form-group">
@@ -171,11 +188,11 @@
 
 <div class="footer">
   <div class="footer-links">
-    <a href="#"><i class="fa fa-github"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
-    <a href="#"><i class="fa fa-facebook"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fas fa-github"></i></a>
+    <a href="#"><i class="fas fa-instagram"></i></a>
+    <a href="#"><i class="fas fa-facebook"></i></a>
+    <a href="#"><i class="fas fa-twitter"></i></a>
+    <a href="#"><i class="fas fa-linkedin"></i></a>
   </div>
   <div class="footer-copyright">
    <p><i class="far fa-copyright"></i> Zachary Gian 2018</p>
@@ -185,6 +202,7 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script  src="js/script.js"></script>
+
 
 </body>
 </html>
