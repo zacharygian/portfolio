@@ -74,7 +74,6 @@ ul.nav a:focus {
   background-image:url("https://image.flaticon.com/icons/svg/25/25623.svg");
   background-position: center;
   background-size: 60px;
-
 }
 
 .animated {
@@ -85,15 +84,30 @@ ul.nav a:focus {
 
 
 .aboutMe {
-  background-color: #39CCCC;
+  height: auto;
+  background-color: #BDD4E7; /*#8693AB*/
   text-align: center;
   color: white;
-  height: 500px;
-  padding: 20px;
 }
 
-.aboutMe p {
-  padding: 10px;
+
+#profile {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  margin: 10px;
+}
+
+.content-about {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  color: brown;
+}
+
+.content-about p {
+  margin: 10px;
 }
 
 .languages {
@@ -103,7 +117,7 @@ ul.nav a:focus {
   background: white;
   text-align: center;
   font-size: 100px;
-  background-color: #DDDDDD;
+  background-color: #B1C0DD;
 }
 
 .languages i {
@@ -113,27 +127,33 @@ ul.nav a:focus {
 
 
 .languages h1 {
-  padding-bottom: 35px;
+  padding-bottom: 10px;
 }
 
 .languages p {
   font-size: 15px;
 }
 
+.skill {
+  width: 70%;
+  margin: auto;
+}
+
 .projects h1 {
   text-align: center;
 }
 
+
 .contact {
   height: auto;
   width: 100%;
-  background-color: gray;
+  background-color: #7FDBFF;
   text-align: center;
   padding: 10px;
 }
 
 .contact h1 {
-  color: yellow;
+  color: #909580;
 }
 
 .contact p {
@@ -176,6 +196,10 @@ ul.nav a:focus {
   border: 1px solid white;
 }
 
+.form-container #text:focus {
+  border: 2px solid black;
+}
+
 .projects {
   margin-bottom: 20px;
 }
@@ -187,8 +211,12 @@ ul.nav a:focus {
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: opacity;
   color: white;
+  opacity: 0.9;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 .card-description p {
@@ -212,4 +240,19 @@ ul.nav a:focus {
   text-decoration: none;
 }
 
+.footer {
+  position: relative;
+  margin-top: 10px;
+  background-color: yellow;
+}
 
+.footer-links {
+  position: absolute;
+  left: 15px;
+  letter-spacing: 1px;
+}
+
+.footer-copyright {
+  position: absolute;
+  right: 15px;
+}
