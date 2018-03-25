@@ -5,7 +5,9 @@
   padding-top: 10px;
   background-color: #7FDBFF;
   margin: 0;
+  border: none;
 }
+
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -44,13 +46,16 @@ ul.nav a:focus {
   padding-top: 70px;
   /*text-transform: uppercase;
   /*letter-spacing: .2em;*/
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 45px;
 }
 
-.header h3,h4 {
+h1,h3,h4 {
   font-family: 'Montserrat', sans-serif;
+}
+
+p, input, textarea {
+  font-family: 'Roboto', sans-serif;
 }
 
 .content {
@@ -88,6 +93,7 @@ ul.nav a:focus {
   background-color: #BDD4E7; /*#8693AB*/
   text-align: center;
   color: white;
+  padding: 70px;
 }
 
 
@@ -96,42 +102,45 @@ ul.nav a:focus {
   width: 150px;
   height: 150px;
   border: 1px solid white;
-  margin: 10px;
+  margin: 30px;
 }
 
 .content-about {
   width: 70%;
   height: auto;
   margin: auto;
-  color: brown;
+  color: black;
 }
 
-.content-about p {
-  margin: 10px;
+.content-about p:last-child {
+  margin: 20px;
+  padding-bottom: 10px;
+  text-align: justify;
 }
 
 .languages {
   height: auto;
-  padding-top: 5px;
-  padding-bottom: 30px;
+  padding: 70px;
   background: white;
   text-align: center;
   font-size: 100px;
   background-color: #B1C0DD;
 }
 
+.languages h1 {
+  color: white;
+}
+
 .languages i {
-  color: brown;
+  color: #D0FFB7;
   font-size: 50px;
 }
 
 
-.languages h1 {
-  padding-bottom: 10px;
-}
-
 .languages p {
   font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .skill {
@@ -139,8 +148,13 @@ ul.nav a:focus {
   margin: auto;
 }
 
+.projects {
+  padding: 70px;
+}
+
 .projects h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 
@@ -158,6 +172,7 @@ ul.nav a:focus {
 
 .contact p {
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 

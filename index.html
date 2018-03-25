@@ -14,7 +14,7 @@
 
 <body>
 <div class="container-fluid header">
-  <nav class="navbar">
+  <!-- <nav class="navbar">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -25,7 +25,33 @@
       </ul>
     </div>
   </div>
+</nav> -->
+
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="#aboutMe">ABOUT ME</a></li>
+              <li><a href="#languages">SKILLS</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
+
+
+
 <div class="content">
   <div class="description">
     <h1>Hi there, I'm Zach.</h1>
@@ -39,34 +65,31 @@
 </div>
 
 <div class="container-fluid aboutMe" id="aboutMe">
-  <h1>Who am I?</h1>
+  <h1><strong>WHO I AM</strong></h1>
   <div class="content-about">
     <img src="assets/images/profile.jpg" id="profile">
     <p>My name is Zachary Gian, I’m from Paris, France and I have a big passion for web development and design. I’m glad you found me!</p>
-
-    <p>Here, you'll be able to see all of my projects, discover my skills and more importantly, you’ll be able to tell me more about your idea, projects and how I could help you make them a reality.</p>
-
-    <p>I always love taking on new challenges and finding ways to make other individuals’ ideas succeed. Do you have an idea, a project or a design you would like to create but don't know how and where to start? Don't give up and forget it! It doesn't have to remain "just" an idea. If you trust me, I would love to have a chat with you and see how we can build it together.</p>
+    <p>Here, you'll be able to see all of my projects, discover my skills and more importantly, you’ll be able to tell me more about your ideas, projects and how I could help you make them a reality. I always love taking on new challenges and finding ways to make other individuals’ ideas succeed. Do you have an idea, a project or a design you would like to create but don't know how and where to start? It doesn't have to remain "just" an idea. If you trust me, I would love to have a chat with you and see how we can build it together.</p>
   </div>
 </div>
 
 <div class="container-fluid languages" id="languages">
-  <h1>My expertise</h1>
+  <h1><strong>MY EXPERTISE</strong></h1>
   <div class="skill">
     <div class="row">
-    <div class="col-xs-12 col-sm-4">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
       <i class="fas fa-desktop"></i>
-      <h3>Responsive & Clean Web Design</h3>
+      <h4><strong>Responsive & Clean Web Design</strong></h4>
       <p>I design and build beautiful websites, portfolio, personal pages and landing pages that work on desktop, tablets and mobile devices. I love simple and minimalistic designs that speak to the audience and spark enthusiasm.</p>
     </div>
-    <div class="col-xs-12 col-sm-4 skill">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
       <i class="fas fa-code"></i>
-      <h3>Back End Development</h3>
+      <h4><strong>Back End Development</strong></h4>
       <p>I code full web applications using Ruby on Rails, JavaScript, HTML, CSS and other frameworks. I can integrate databases and user logins/profiles to make your platform fully complete and the user experience flawless.</p>
     </div>
-    <div class="col-xs-12 col-sm-4 skill">
+    <div class="col-xs-12 col-sm-12 col-lg-4">
       <i class="fas fa-globe"></i>
-      <h3>Deployment + Maintenance</h3>
+      <h4><strong>Deployment + Maintenance</strong></h4>
       <p>I obtain a domain name for your project, deploy it on a server and provide free maintenance for two weeks after the project is over. I make sure that the website runs smoothly and that you are happy with it, because in the end that is all that matters.</p>
     </div>
   </div>
@@ -74,7 +97,7 @@
 </div>
 
 <div class="container-fluid projects" id="projects">
-  <h1>My Work</h1>
+  <h1>MY WORK</h1>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-lg-4">
@@ -204,8 +227,12 @@
   </div>
 </div>
 
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script  src="js/script.js"></script>
 
 
