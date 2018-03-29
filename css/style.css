@@ -96,6 +96,10 @@ p, input, textarea {
   padding: 70px;
 }
 
+.aboutMe p {
+  font-size: 15px;
+}
+
 
 #profile {
   border-radius: 50%;
