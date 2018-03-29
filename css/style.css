@@ -90,9 +90,9 @@ p, input, textarea {
 
 .aboutMe {
   height: auto;
-  background-color: #BDD4E7; /*#8693AB*/
+  background-color: #F0F7EE; /*#8693AB*/
   text-align: center;
-  color: white;
+  color: black;
   padding: 70px;
 }
 
@@ -115,7 +115,7 @@ p, input, textarea {
 .content-about p:last-child {
   margin: 20px;
   padding-bottom: 10px;
-  text-align: justify;
+  font-family: 'Roboto', sans-serif;
 }
 
 .languages {
@@ -124,15 +124,15 @@ p, input, textarea {
   background: white;
   text-align: center;
   font-size: 100px;
-  background-color: #B1C0DD;
+  background-color: #C6EFFF;
 }
 
 .languages h1 {
-  color: white;
+  color: black;
 }
 
 .languages i {
-  color: #D0FFB7;
+  color: gray;
   font-size: 50px;
 }
 
@@ -150,29 +150,34 @@ p, input, textarea {
 
 .projects {
   padding: 70px;
+  background-color: #F0F7EE;
 }
 
 .projects h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  color: black;
 }
 
 
 .contact {
   height: auto;
   width: 100%;
-  background-color: #7FDBFF;
+  background-color: #C6EFFF;
   text-align: center;
-  padding: 10px;
+  padding: 70px;
 }
 
 .contact h1 {
-  color: #909580;
+  color: black;
 }
 
 .contact p {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  color: black;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 
@@ -189,12 +194,18 @@ p, input, textarea {
   width: 200px;
   margin: auto;
   border-radius: 1px;
-  border: 1px solid yellow;
+  border: 2px solid black;
   opacity: 0.9;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 #submit:hover {
   opacity: 1;
+  background-color: lightgray;
+  color: white;
 }
 
 .form-container input {
@@ -215,9 +226,6 @@ p, input, textarea {
   border: 2px solid black;
 }
 
-.projects {
-  margin-bottom: 20px;
-}
 
 .card {
   position: relative;
